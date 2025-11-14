@@ -41,5 +41,5 @@ app.get("*", (req, res) => {
 });
 
 // ✅ Start server
-const PORT = 5000;
+const PORT = 3000;
 app.listen(PORT, () => console.log(`🚀 MediCart running at http://localhost:${PORT}`));
